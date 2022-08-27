@@ -1,0 +1,275 @@
+.search{
+    outline: none !important;
+    border-radius: 15px 0px 0px 15px;
+    border: 1px solid rgb(254, 197, 123);
+    margin-right: 0 !important;
+    border-right: none;
+}
+.look{
+    background-color: #fff;
+    color: black;
+    border-radius: 0 15px 15px 0;
+    border: 1px solid rgb(254, 197, 123);
+    border-left: none;
+    outline: none !important;
+}
+input:focus {
+    box-shadow: none !important; 
+    border: 1px solid rgb(254, 197, 123) !important;
+    border-right: none !important;}
+button:focus {outline:0 !important;
+    box-shadow: none !important; 
+    background-color: white !important ;
+    border: 1px solid rgb(254, 197, 123) !important;
+    color: brown !important; 
+    border-left: none !important;}
+
+.look:hover{
+    background-color: white ;
+    color: brown;
+    border: 1px solid rgb(254, 197, 123);
+    border-left: none;
+}
+.look_s i{
+    color: rgb(132, 133, 134,0.5);
+    font-size: large;
+    margin-top: 10px;
+    
+}
+.down{
+    margin-top: 8px;
+}
+@media (max-width: 992px) 
+{
+    .hide{
+        display: none !important;
+    }
+}
+.dropdown:hover .dropdown-menu { 
+    display: block; 
+    padding-top: 10px;
+}
+.menu_first1{
+   margin-left: -190%;
+}
+.reduce{
+   
+    margin-left: -30px;
+}
+.menu_first .dropdown-item{
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(157, 132, 99);
+}
+  .carousel-caption{
+    top: 40% !important;
+  }
+  .btn-light:hover{
+    background-color: antiquewhite;
+    color: burlywood;
+  }
+  .item:hover{
+   
+    transform: scale(1.15,1.15);
+    transition: 1s;
+    overflow: hidden;
+  }
+  .fakeimg {
+    width: 100%;
+    height:100%;
+    border: 1px solid white;
+    overflow: hidden;
+  }
+  .hidden{
+    overflow: hidden;
+  }
+  .design{
+    color: rgba(102,102,102,.85) !important;
+    padding-left: 0 !important;
+    font-size: 12px; 
+    font-weight: 500;
+  }
+  .design_left{
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .design_top{
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .hover_button:hover
+  {
+    background-color: antiquewhite;
+  }
+.run{
+  position: relative !important;
+  animation-name: run_button;
+  animation-duration: 2s;
+
+}
+@keyframes run_button {
+  0% {left: 150px;}
+  100% {left: 0px;}
+}
+.run_left{
+  position: relative !important;
+  animation-name: run_button2;
+  animation-duration: 2s;
+
+}
+@keyframes run_button2 {
+  0% {left: -100px;}
+  100% {left: 0px;}
+}
+.design_top_up{
+  margin-top: -120px;
+}
+.hover_total:hover #img_active1{
+  content: url(/image/sofa-combo-goc-boc-vai-xanh-dep-hien-dai-3-600x400.jpg);
+ 
+}
+.hover_total:hover #img_active2{
+  content: url(/image/ban-an-peak-hien-dai-van-may-ceramic-22-600x360.jpg);
+  
+}
+.hover_total:hover #img_active3{
+  content: url(/image/armchair-osaka-hien-dai-sang-trong-1-600x400.jpg);
+  
+}
+.hover_total:hover #img_active4{
+  content: url(/image/CONSOLE-TABLE-GLORIA-GOLD-82379K-4-600x400.jpg);
+  
+}
+.hover_total:hover #img_active5{
+  content: url(/image/Sofa-Combo-3-cho-da-Bali-520-5-1-600x387.jpg);
+  
+}
+.hover_total:hover #img_active6{
+  content: url(/image/ghe-an-peak-mau-xanh-2-600x400.jpg);
+  
+}
+.hover_total:hover #img_active7{
+  content: url(/image/TU-LY-BARBIER-WALNUT-410043Z-6-600x400.jpg);
+  
+}
+.hover_total:hover #img_active8{
+  content: url(/image/phong-ngu-dubai-tinh-te-sac-mau-tuoi-tan-600x400.jpg);
+  
+}
+.hover_total:hover .img_hover{
+  transform: scale(1.05,1.05);
+  transition: 1s;
+}
+.img_hover{
+  height: 150px;
+}
+.float-right{
+  margin-left: 5px;
+}
+.hidden_img{
+  visibility:hidden;
+}
+.hover_total:hover .hidden_img{
+  visibility: inherit;
+ animation-name: display_button;
+ animation-duration: 2s;
+}
+@keyframes display_button{
+  from{opacity: 0.5;}
+  to{opacity: 1;}
+}
+.hover_total:hover{
+  border: 1px solid rgb(196, 196, 191);
+}
+.hover_total{
+  margin: 10px 10px 10px 0;
+  padding: 10px;
+  
+}
+.hover_heart:hover{
+  color: rgb(246, 206, 158) !important;
+}
+.cursor{
+  cursor: pointer;
+}
+.boder_bottom{
+  border-bottom: 1px solid black;
+}
+.height_banner{
+  height: 450px;
+}
+.line_height{
+  line-height: 40px;
+}
+.design_bottom{
+  margin-bottom: 20px;
+}
+.carousel-control-prev-icon:hover{
+  all:none;
+}
+.carousel-control-next-icon:focus{
+  all:none;
+}
+.carousel-control-next-icon:active{
+  all:none;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.nav-link{
+  color: black;
+}
+.nav-link:hover{
+  color: rgb(53, 53, 53);
+}
+.design_text{
+  font-size: 13px;
+}
+.swiper-slide{
+  text-align: left;
+}
+.swiper-button-next{
+  color: rgb(154, 151, 151) !important;
+}
+.swiper-button-prev{
+  color: rgb(154, 151, 151) !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: bisque !important;
+ 
+}
+.navbar-expand-sm{
+  background-color: rgba(255, 255, 255, 0.95) !important;
+}
+.opcity_img:hover{
+  opacity: 0.8 ;
+}
+
